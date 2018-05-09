@@ -32,6 +32,8 @@ sudo install retrogame /usr/local/bin/retrogame
 sudo sed -i 's/retrogame\ &//g' /etc/rc.local
 sudo sed -i '/^exit\ 0/i\retrogame\ &' /etc/rc.local
 sudo sed -i '1i/SUBSYSTEM=="input",\ ATTRS{name}=="retrogame",\ ENV{ID_INPUT_KEYBOARD}="1"' /etc/udev/rules.d/10-retrogame.rules
+sudo cp configs/retrogame.cfg /boot/retrogame.cfg
+sudo cp configs/retrogame.cfg.2player /boot/retrogame.cfg.2player
 cd ~
 sudo rm -rf wiringPi/
 sudo rm -rf Adafruit-Retrogame/
