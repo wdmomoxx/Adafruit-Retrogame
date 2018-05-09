@@ -24,9 +24,7 @@ cd ~
 git clone git://git.drogon.net/wiringPi
 cd ~/wiringPi
 ./build
-cd ~
-git clone https://github.com/wdmomoxx/Adafruit-Retrogame.git
-cd Adafruit-Retrogame
+cd ~/Adafruit-Retrogame
 make
 sudo install retrogame /usr/local/bin/retrogame
 sudo sed -i 's/retrogame\ &//g' /etc/rc.local
