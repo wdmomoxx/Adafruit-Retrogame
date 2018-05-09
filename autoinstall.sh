@@ -24,14 +24,14 @@ cd ~
 git clone git://git.drogon.net/wiringPi
 cd ~/wiringPi
 ./build
-cd ~/Adafruit-Retrogame
+cd ~/retrogame
 make
 sudo install retrogame /usr/local/bin/retrogame
 sudo sed -i 's/retrogame\ &//g' /etc/rc.local
 sudo sed -i '/^exit\ 0/i\retrogame\ &' /etc/rc.local
-sudo cp -r 10-retrogame.rules /etc/udev/rules.d/10-retrogame.rules
+sudo cp -r 10-retrogame.rules /etc/udev/rules.d/
 sudo cp -r configs/* /boot/
 cd ~
 sudo rm -rf wiringPi/
-sudo rm -rf Adafruit-Retrogame/
+sudo rm -rf retrogame/
 sudo reboot
