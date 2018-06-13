@@ -10,21 +10,21 @@
 
 # Here's a pin configuration for the PiGRRL 2 project:
 
-UP        21  # Joypad up
-DOWN      26  # Joypad down
-LEFT      20  # Joypad left
-RIGHT     19  # Joypad right
-ENTER     16  # 'Start' button
-SPACE     13  # 'Select' button
+UP        26  # Joypad up
+DOWN      19  # Joypad down
+LEFT      13  # Joypad left
+RIGHT      6  # Joypad right
+ENTER      5  # 'Start' button
+SPACE     21  # 'Select' button
 LEFTCTRL  12  # 'A' button
-LEFTALT    6  # 'B' button
-Z          5  # 'X' button
-X         23  # 'Y' button
+LEFTALT   20  # 'B' button
+Z         16  # 'X' button
+X         12  # 'Y' button
 A         22  # Left1 shoulder button
-S         27  # Right1 shoulder button
-Q         15  # Left2 shoulder button
-W          3  # Right3 shoulder button
-1          2  # hotkey Button 4
+S          2  # Right1 shoulder button
+Q          3  # Left2 shoulder button
+W          4  # Right3 shoulder button
+1         14  # hotkey Button 4
 
 # For configurations with few buttons (e.g. Cupcade), a key can be followed
 # by multiple pin numbers.  When those pins are all held for a few seconds,
