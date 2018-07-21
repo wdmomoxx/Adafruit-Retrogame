@@ -30,7 +30,7 @@ sudo install retrogame /usr/local/bin/retrogame
 sudo sed -i 's/retrogame\ &//g' /etc/rc.local
 sudo sed -i '/^exit\ 0/i\retrogame\ &' /etc/rc.local
 sudo cp -r 10-retrogame.rules /etc/udev/rules.d/
-sudo cp -r configs/* /boot/
+sudo cp -r configs/retrogame.cfg.others /boot/retrogame.cfg
 cd ~
 sudo rm -rf wiringPi/
 sudo rm -rf retrogame/
