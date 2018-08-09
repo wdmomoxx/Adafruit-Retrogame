@@ -17,9 +17,9 @@ RIGHT      5  # Joypad right
 ENTER     22  # 'Start' button
 SPACE     27  # 'Select' button
 LEFTCTRL  12  # 'A' button
-LEFTALT   16  # 'B' button
-Z         23  # 'X' button
-X         24  # 'Y' button
+LEFTALT   23  # 'B' button
+Z         24  # 'X' button
+X          6  # 'Y' button
 A          3  # Left1 shoulder button
 S          2  # Right1 shoulder button
 1         13  # hotkey Button 4
