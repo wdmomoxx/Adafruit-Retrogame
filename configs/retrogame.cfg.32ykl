@@ -1,0 +1,35 @@
+# Sample configuration file for retrogame.
+# Really minimal syntax, typically two elements per line w/space delimiter:
+# 1) a key name (from keyTable.h; shortened from /usr/include/linux/input.h).
+# 2) a GPIO pin number; when grounded, will simulate corresponding keypress.
+# Uses Broadcom pin numbers for GPIO.
+# If first element is GND, the corresponding pin (or pins, multiple can be
+# given) is a LOW-level output; an extra ground pin for connecting buttons.
+# A '#' character indicates a comment to end-of-line.
+# File can be edited "live," no need to restart retrogame!
+
+# Here's a pin configuration for the 3.2' project:
+
+UP        27  # Joypad up
+DOWN      16  # Joypad down
+LEFT      23  # Joypad left
+RIGHT     12  # Joypad right
+ENTER     20  # 'Start' button
+RIGHTCTRL 19  # 'Select' button
+Z          6  # 'A' button
+X          5  # 'B' button
+S         13  # 'X' button
+M         22  # 'Y' button
+R         15  # Left1 shoulder button
+Q          3  # Right1 shoulder button
+O         14  # Left2 shoulder button
+P          2  # Right2 shoulder button
+U         17  # Left3 shoulder button
+I          4  # Right3 shoulder button
+ESC       26  # Hotkey
+
+# For configurations with few buttons (e.g. Cupcade), a key can be followed
+# by multiple pin numbers.  When those pins are all held for a few seconds,
+# this will generate the corresponding keypress (e.g. ESC to exit ROM).
+# Only ONE such combo is supported within the file though; later entries
+# will override earlier.
