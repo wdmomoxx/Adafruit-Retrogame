@@ -8,7 +8,7 @@
 # A '#' character indicates a comment to end-of-line.
 # File can be edited "live," no need to restart retrogame!
 
-# Here's a pin configuration for the PiGRRL 2 project:
+# Here's a pin configuration for the LCL-GBA project:
 
 UP        17  # Joypad up
 DOWN      14  # Joypad down
