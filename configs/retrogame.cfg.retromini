@@ -15,14 +15,14 @@ DOWN      14  # Joypad down
 LEFT       4  # Joypad left
 RIGHT     15  # Joypad right
 ENTER     23  # 'Start' button
-SPACE     27  # 'Select' button
-LEFTCTRL  13  # 'A' button
-LEFTALT   12  # 'B' button
-Z          5  # 'X' button
-X          6  # 'Y' button
-A          2  # Left1 shoulder button
-S          3  # Right1 shoulder button
-1         22  # hotkey Button 4
+RIGHTCTRL 27  # 'Select' button
+Z         13  # 'A' button
+X         12  # 'B' button
+S          5  # 'X' button
+M          6  # 'Y' button
+R          2  # Left1 shoulder button
+Q          3  # Right1 shoulder button
+ESC       22  # hotkey Button 4
 
 # For configurations with few buttons (e.g. Cupcade), a key can be followed
 # by multiple pin numbers.  When those pins are all held for a few seconds,
